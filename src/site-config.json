@@ -1,0 +1,524 @@
+{
+  "business": {
+    "name": "Apex Power Washing",
+    "phone": "555-pow-r92",
+    "category": "power-washing",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "power-washing-red-charge",
+      "categoryGroup": "power-washing",
+      "name": "Red Charge",
+      "recipeFile": "power-washing/red-charge.astro",
+      "colors": {
+        "primary": "#0EA5E9",
+        "primaryDark": "#0369A1",
+        "primaryLight": "#c3e9fa",
+        "secondary": "#0d95d2",
+        "accent": "#22D3EE",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#0EA5E9",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "power-washing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Jacksonville's Trusted Power Washing Experts",
+      "heroSubline": "Restoring surfaces with precision since 2012. Serving Duval County homes with tailored solutions for our coastal climate.",
+      "aboutTitle": "Rooted in Jacksonville, Built for Results",
+      "aboutText": [
+        "Founded in 2012, Apex Power Washing began with two pressure washers and a pickup truck. Twelve years later, we're still family-owned, just with 20+ technicians serving homes from Riverside to Ponte Vedra.",
+        "We approach every job like Jacksonville locals—because we are. That means understanding how salt air degrades siding, why summer humidity breeds mold, and which historic materials need gentler care.",
+        "When we're not cleaning driveways, you'll find our team volunteering at Riverside Arts Market or sponsoring youth sports at Ed Austin Park."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Smart Cleaning",
+          "description": "Our methods account for Jacksonville's humidity, salt corrosion, and tropical storms to prevent rapid re-soiling."
+        },
+        {
+          "title": "Neighborhood Specialists",
+          "description": "From Avondale's brick walkways to Mandarin's screened lanais, we know your home's unique cleaning needs."
+        },
+        {
+          "title": "No Damage Guarantee",
+          "description": "12 years and 800+ projects without a single insurance claim for surface damage."
+        },
+        {
+          "title": "Same-Day Quotes",
+          "description": "Get a precise estimate within hours, not days—we know Jacksonville schedules move fast."
+        }
+      ],
+      "ctaHeadline": "Ready for a Home That Shines?",
+      "ctaSubline": "Call 555-POW-R92 today for free estimates in Jacksonville, St. Augustine, or Orange Park."
+    },
+    "services": [
+      {
+        "slug": "residential-power-washing",
+        "name": "Residential Power Washing",
+        "shortDescription": "Complete exterior cleaning for Jacksonville homes, from historic bungalows to new builds.",
+        "description": "Jacksonville's mix of historic and modern homes demands adaptable cleaning solutions. We tailor pressure levels—softer for Riverside's century-old wood siding, stronger for newer concrete driveways in Bartram Park.\n\nOur residential service tackles salt residue on beach-proximate homes, mildew in shaded yards, and oxidation on metal roofs. We pre-treat surfaces with biodegradable cleaners to break down stubborn Jacksonville grime before applying precise water pressure. Post-treatment sealants help protect against rapid re-soiling from our humid climate.",
+        "process": [
+          "Step 1: Property walkthrough to identify delicate materials and problem areas",
+          "Step 2: Application of eco-friendly cleaning agents suited to surface type",
+          "Step 3: Pressure washing with temperature-controlled water (never scalding hot)",
+          "Step 4: Protective coating application for vulnerable surfaces like wood decks"
+        ],
+        "benefits": [
+          "Removes salt corrosion damaging coastal properties",
+          "Prevents mold regrowth in shaded areas",
+          "Restores curb appeal without surface damage",
+          "Extends lifespan of siding and roofing"
+        ],
+        "faq": [
+          {
+            "question": "Will power washing damage my historic home's wood siding?",
+            "answer": "We use low-pressure (500-800 PSI) techniques for fragile materials, combined with gentle cleaning solutions. Our team has restored 60+ historic properties in Riverside without incident."
+          },
+          {
+            "question": "How often should Jacksonville homes be power washed?",
+            "answer": "Annual cleaning suffices for most areas, but beachfront properties benefit from biannual service due to accelerated salt buildup."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-cleaning",
+        "name": "Concrete Cleaning",
+        "shortDescription": "Revitalize driveways, patios, and walkways plagued by Florida's heat and humidity.",
+        "description": "Jacksonville's concrete suffers year-round from tire marks, mildew in shaded cracks, and efflorescence from our mineral-rich groundwater. Our surface-specific approach combines hot water extraction for oil stains with rotary scrubbers for textured patios.\n\nFor pool decks and screened lanai floors—common in Mandarin and San Marco homes—we employ mold-inhibiting treatments that withstand constant moisture. Brick pavers in historic districts receive hand-cleaning around fragile mortar joints. Post-clening, we apply penetrating sealers to slow future staining from tropical storms and pollen.",
+        "process": [
+          "Step 1: Degreasing treatment for oil/grease stains",
+          "Step 2: Rotary agitation for textured surfaces",
+          "Step 3: Pressure rinsing with adjustable nozzles",
+          "Step 4: Sealer application (optional)"
+        ],
+        "benefits": [
+          "Eliminates slippery algae growth",
+          "Restores original color to faded concrete",
+          "Reduces heat absorption on sunny surfaces",
+          "Prevents weed growth in paver joints"
+        ],
+        "faq": [
+          {
+            "question": "Can you remove rust stains from my driveway?",
+            "answer": "Yes—our oxalic acid treatment lifts iron deposits without etching concrete, a common issue with Jacksonville's iron-rich soil."
+          },
+          {
+            "question": "Will cleaning make my pool deck too slick?",
+            "answer": "We use non-slip additives in our cleaning solutions for wet areas, maintaining traction while removing mildew."
+          }
+        ]
+      },
+      {
+        "slug": "roof-cleaning",
+        "name": "Roof Cleaning",
+        "shortDescription": "Safe algae and lichen removal for Jacksonville's sun-baked roofs.",
+        "description": "Florida's heat and humidity create ideal conditions for black streaks on shingles and moss growth in shaded valleys. Our soft-wash system cleans without dislodging granules or damaging historic clay tiles common in Avondale.\n\nThe process begins with aerial drone inspections to identify problem areas without ladder risks. We then apply a proprietary zinc-based solution that continues inhibiting growth for months after treatment. For metal roofs near the beaches, we use low-pressure techniques to prevent salt corrosion acceleration. All runoff is captured to protect landscaping from cleaning agents.",
+        "process": [
+          "Step 1: Drone-assisted inspection",
+          "Step 2: Application of growth-inhibiting cleaner",
+          "Step 3: Gentle rinsing with surface-tracking nozzles",
+          "Step 4: Gutter flushing to prevent clogs"
+        ],
+        "benefits": [
+          "Extends roof lifespan by 3-5 years",
+          "Improves solar reflectance in summer",
+          "Prevents organic matter from compromising shingles",
+          "Maintains historic roof integrity"
+        ],
+        "faq": [
+          {
+            "question": "How long until algae returns after cleaning?",
+            "answer": "Our zinc-based treatments typically provide 18-24 months of protection in Jacksonville's climate—twice as long as standard cleaners."
+          },
+          {
+            "question": "Can you clean my barrel tile roof?",
+            "answer": "Yes, we use specialized low-pressure nozzles that clean between curved tiles without displacing them or damaging mortar."
+          }
+        ]
+      },
+      {
+        "slug": "deck-restoration",
+        "name": "Deck Restoration",
+        "shortDescription": "Bring life back to weathered wood surfaces in Jacksonville's harsh climate.",
+        "description": "Decks in Ponte Vedra and along the Intracoastal face relentless sun, salt air, and summer rains that cause premature graying and splintering. Our restoration goes beyond surface cleaning to revive wood at the cellular level.\n\nAfter removing embedded dirt with specialized wood-safe detergents, we brighten oxidized fibers with non-toxic solutions. For composite materials common in newer developments, we use cooler temperatures to prevent warping. The final step—applying penetrating oil or stain—is timed between Jacksonville's frequent rain showers for optimal absorption. We pay special attention to railings and high-traffic areas where wear shows first.",
+        "process": [
+          "Step 1: Deep cleaning between boards with narrow nozzles",
+          "Step 2: Oxidized wood brightening treatment",
+          "Step 3: Sanding of rough areas (optional)",
+          "Step 4: Protective finish application"
+        ],
+        "benefits": [
+          "Restores natural wood grain visibility",
+          "Reduces splinter hazards",
+          "Protects against UV degradation",
+          "Prevents moisture warping"
+        ],
+        "faq": [
+          {
+            "question": "How soon can we use our deck after treatment?",
+            "answer": "Most finishes dry within 4-6 hours in Jacksonville's heat, but we recommend 24 hours before heavy furniture placement."
+          },
+          {
+            "question": "Will cleaning remove all the gray from my old deck?",
+            "answer": "While we can't reverse all weathering, our brightening process typically restores 80-90% of original color on well-maintained wood."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-power-washing",
+        "name": "Commercial Power Washing",
+        "shortDescription": "High-volume cleaning for Jacksonville businesses facing Florida's elements.",
+        "description": "Storefronts along Atlantic Boulevard and office parks near JTB battle constant grime from traffic, pollen, and coastal weather. Our commercial service combines efficiency with minimal business disruption—often working overnight for retail centers.\n\nWe prioritize surfaces that impact first impressions: entrance walkways free of gum and grease, awnings cleared of nesting debris, and parking garages without oil stains. For food service businesses, we use USDA-approved sanitizers on dumpster pads and loading docks. Monthly maintenance plans help Jacksonville businesses maintain professional appearances year-round, with scheduling around tourist seasons and special events.",
+        "process": [
+          "Step 1: After-hours site assessment",
+          "Step 2: Heavy-duty degreasing for high-traffic areas",
+          "Step 3: Surface-specific pressure application",
+          "Step 4: Storm drain protection per Jacksonville regulations"
+        ],
+        "benefits": [
+          "Reduces slip-and-fall liability",
+          "Maintains property values",
+          "Complies with Jacksonville signage ordinances",
+          "Improves employee/customer first impressions"
+        ],
+        "faq": [
+          {
+            "question": "Do you handle large parking lot cleaning?",
+            "answer": "Yes—our truck-mounted systems efficiently clean 50,000+ sq ft lots common in Jacksonville's shopping centers, with oil spot pretreatment."
+          },
+          {
+            "question": "Can you work around our business hours?",
+            "answer": "We routinely service restaurants at 3 AM and office buildings on weekends to avoid operational disruptions."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marshall T.",
+        "rating": 5,
+        "service": "Roof Cleaning",
+        "text": "After three Jacksonville summers, our white metal roof was streaked with black algae. Apex not only restored it to like-new condition but spotted (and fixed) a loose panel that could've become a leak. Their drone photos showed exactly where the worst buildup was.",
+        "date": "2025-03-12"
+      },
+      {
+        "name": "Lisa R.",
+        "rating": 5,
+        "service": "Deck Restoration",
+        "text": "Our Riverside deck hadn't been cleaned in years—gray with mildew between the boards. The team hand-scrubbed the intricate railings and used just enough pressure to clean without gouging the old heart pine. The oil treatment they applied has held up through two rainy seasons.",
+        "date": "2025-01-28"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Concrete Cleaning",
+        "text": "The brick pavers around our San Marco pool were turning green from constant shade. Apex's rotary cleaning got into every joint without disturbing the sand base, and their sealant recommendation has kept the area looking fresh despite weekly pool parties.",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "Danielle K.",
+        "rating": 5,
+        "service": "Residential Power Washing",
+        "text": "Living two blocks from Jacksonville Beach means constant salt spray on our siding. Apex's team knew exactly which areas needed gentler treatment and which could handle stronger pressure. They even cleaned our outdoor light fixtures without a single bulb replacement needed.",
+        "date": "2024-10-03"
+      },
+      {
+        "name": "Thomas W.",
+        "rating": 5,
+        "service": "Commercial Power Washing",
+        "text": "Our medical office near Baptist South was getting complaints about stained walkways. Apex came at 5 AM before patients arrived, removed years of gum and mineral deposits, and had the place looking professional by opening time. Six months later, it still looks great.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Naomi P.",
+        "rating": 5,
+        "service": "Deck Restoration",
+        "text": "The team salvaged our 15-year-old ipe deck in Ponte Vedra that other companies said needed replacement. Their brightening treatment brought back the rich brown color, and the oil application has prevented the usual graying from UV exposure. Worth every penny.",
+        "date": "2024-08-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Jacksonville Power Washing | Apex Power Washing",
+        "description": "Family-owned Jacksonville power washing company serving Duval County since 2012. Specializing in coastal home exterior cleaning and commercial property maintenance."
+      },
+      "about": {
+        "title": "About Our Jacksonville Power Washing Company",
+        "description": "Learn how Apex Power Washing's local expertise delivers better results for Jacksonville homes battling salt air, humidity, and tropical weather."
+      },
+      "services": {
+        "title": "Jacksonville Power Washing Services | Residential & Commercial",
+        "description": "Complete exterior cleaning solutions for Jacksonville properties, from historic home soft-washing to high-volume commercial pressure cleaning."
+      },
+      "contact": {
+        "title": "Contact Jacksonville's Power Washing Experts",
+        "description": "Get a free estimate from Apex Power Washing for your Jacksonville home or business. Same-day quotes available across Duval County."
+      },
+      "reviews": {
+        "title": "Jacksonville Power Washing Reviews | Apex Power Washing",
+        "description": "See what Jacksonville homeowners and businesses say about Apex Power Washing's residential and commercial cleaning results."
+      },
+      "service-areas": {
+        "title": "Jacksonville Power Washing Service Areas",
+        "description": "Serving Jacksonville, St. Augustine, Orange Park and surrounding areas with customized exterior cleaning solutions."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "St. Augustine",
+        "slug": "st-augustine-fl",
+        "state": "FL",
+        "content": "Apex Power Washing proudly serves St. Augustine, Florida, the nation's oldest city with its beautiful Spanish Colonial architecture. Our pressure washing services are ideal for removing mold, mildew, and salt residue from historic brick and coquina walls, preserving their timeless charm. With hot, humid summers accelerating grime buildup, we help homeowners maintain pristine exteriors while protecting delicate surfaces. Our soft wash technique is perfect for the aged materials found throughout the historic district. Whether you need driveway cleaning, roof washing, or exterior home cleaning in St. Augustine, we use the right pressure to clean effectively without damage. We're familiar with local preservation guidelines and use eco-friendly solutions safe for this coastal environment. Regular cleaning helps combat the rapid algae growth caused by Florida's subtropical climate while maintaining your property's historic integrity.",
+        "localContext": "St. Augustine features centuries-old Spanish Colonial buildings and narrow brick streets requiring specialized cleaning approaches.",
+        "nearbyAreas": [
+          "Vilano Beach",
+          "World Golf Village",
+          "Hastings"
+        ]
+      },
+      {
+        "city": "Orange Park",
+        "slug": "orange-park-fl",
+        "state": "FL",
+        "content": "Apex Power Washing is your trusted provider for exterior cleaning services in Orange Park, Florida, where many homes feature classic 1970s-80s ranch-style architecture. Our team specializes in revitalizing aging vinyl siding, concrete driveways, and brick facades common throughout these suburban neighborhoods. The humid Florida climate causes rapid algae and mold growth on north-facing walls and shaded areas, but our treatments provide long-lasting protection. We offer comprehensive exterior cleaning packages tailored to Orange Park homes, including gutter cleaning to prevent water damage and deck restoration to enhance outdoor living spaces. Our pressure washing services help maintain property values in this established community while using water-efficient techniques that comply with local water restrictions. From single-story ranches to larger properties along the St. Johns River, we bring decades of combined experience to every Orange Park home we service.",
+        "localContext": "Orange Park's suburban ranch homes from the 70s-80s era benefit from gentle yet effective cleaning methods.",
+        "nearbyAreas": [
+          "Fleming Island",
+          "Middleburg",
+          "Oakleaf Plantation"
+        ]
+      },
+      {
+        "city": "Jacksonville Beach",
+        "slug": "jacksonville-beach-fl",
+        "state": "FL",
+        "content": "Apex Power Washing delivers exceptional exterior cleaning services to Jacksonville Beach properties battling constant salt spray and sandy conditions. Our specialized techniques remove corrosive salt deposits from beachfront homes while protecting delicate surfaces. We're experts at combating the unique challenges of coastal living, from cleaning salt-crusted windows to restoring weathered wooden decks. Our soft wash systems eliminate mold and mildew that thrive in the ocean breeze, using biodegradable cleaners safe for pets and children. Whether you need routine maintenance for your oceanfront condo or a deep clean for your inland Jacksonville Beach home, we tailor our approach to your specific needs. We also offer concrete cleaning to remove stubborn sand and dirt from pool decks, patios, and driveways throughout the area. Trust our local team to enhance your property's curb appeal while extending the life of your exterior surfaces against harsh marine elements.",
+        "localContext": "Jacksonville Beach properties require frequent cleaning to combat salt corrosion and sandy buildup from ocean winds.",
+        "nearbyAreas": [
+          "Neptune Beach",
+          "Atlantic Beach",
+          "Ponte Vedra Beach"
+        ]
+      },
+      {
+        "city": "Fernandina Beach",
+        "slug": "fernandina-beach-fl",
+        "state": "FL",
+        "content": "Apex Power Washing provides top-tier exterior cleaning services in historic Fernandina Beach, where Victorian architecture meets modern beach living. Our gentle cleaning methods preserve the intricate details of century-old homes while effectively removing salt residue and beachfront grime. We're experts at maintaining both the charming historic district properties and contemporary oceanfront homes, using appropriate pressure levels for each surface type. The salty ocean air accelerates weathering on siding, fences, and outdoor furniture, but our protective treatments create a barrier against the elements. From cleaning the iconic shrimp boat fleet at the harbor to refreshing historic downtown storefronts, we understand Fernandina Beach's unique cleaning needs. Our eco-friendly solutions safely remove stubborn stains from brick walkways, wooden porches, and seaside decks without harming the local ecosystem. Trust our experienced team to enhance your property's beauty while respecting the character of this beloved island community.",
+        "localContext": "Fernandina Beach's Victorian homes and maritime industry create distinct cleaning challenges requiring specialized approaches.",
+        "nearbyAreas": [
+          "Yulee",
+          "Amelia City",
+          "O'Neil"
+        ]
+      },
+      {
+        "city": "Fleming Island",
+        "slug": "fleming-island-fl",
+        "state": "FL",
+        "content": "Apex Power Washing serves the upscale communities of Fleming Island, Florida, where well-maintained exteriors are essential to preserving property values. Our team specializes in cleaning the diverse architectural styles found throughout this waterfront community, from Mediterranean villas to traditional Southern homes. We address the specific challenges of living near the St. Johns River, including increased humidity that promotes mold growth and pollen accumulation on outdoor surfaces. Our comprehensive services include roof cleaning to prevent algae streaks, driveway pressure washing to remove tire marks, and patio cleaning to prepare outdoor spaces for entertaining. We understand Fleming Island's HOA requirements and deliver results that meet community standards while using environmentally responsible cleaning agents. Whether you're preparing your home for sale or maintaining your dream property, our meticulous approach ensures exceptional results that last. From Eagle Harbor to the Hammocks, we're the preferred choice for discerning homeowners who demand the best in exterior cleaning services.",
+        "localContext": "Fleming Island's luxury homes and waterfront properties require premium cleaning services that protect high-end surfaces.",
+        "nearbyAreas": [
+          "Orange Park",
+          "Green Cove Springs",
+          "Middleburg"
+        ]
+      },
+      {
+        "city": "Ponte Vedra Beach",
+        "slug": "ponte-vedra-beach-fl",
+        "state": "FL",
+        "content": "Apex Power Washing provides professional exterior cleaning services to Ponte Vedra Beach's prestigious golf communities and oceanfront estates. Our team is experienced in handling the unique cleaning needs of high-value properties, from removing golf course fertilizer stains to combating beachfront salt corrosion. We use low-pressure cleaning techniques that are safe for delicate stucco finishes, imported stonework, and custom exterior surfaces common in Ponte Vedra Beach homes. Our services help maintain the immaculate appearance expected in this exclusive area, including roof cleaning to prevent unsightly black algae streaks and paver restoration for elaborate driveways and pool decks. We schedule services around the seasonal influx of residents and major golf tournaments to minimize disruption. Whether you own a Sawgrass mansion or a Marsh Landing villa, we deliver discreet, top-quality cleaning that meets the standards of Ponte Vedra Beach's most discerning homeowners while protecting our delicate coastal ecosystem.",
+        "localContext": "Ponte Vedra Beach's luxury properties demand meticulous cleaning techniques that preserve high-end materials and finishes.",
+        "nearbyAreas": [
+          "Jacksonville Beach",
+          "Palm Valley",
+          "Nocatee"
+        ]
+      },
+      {
+        "city": "Middleburg",
+        "slug": "middleburg-fl",
+        "state": "FL",
+        "content": "Apex Power Washing offers comprehensive exterior cleaning solutions for Middleburg's rural and suburban properties, from sprawling horse farms to modern subdivisions. Our services are tailored to handle the red clay stains common in this area, effectively removing them from sidewalks, driveways, and home exteriors without damaging surfaces. We understand the specific needs of Middleburg's country estates, including proper cleaning of barns, fences, and outdoor equipment areas. Our team is equipped to service large-acreage properties efficiently, with mobile units that can reach remote locations. The transition between Middleburg's wooded areas and open fields creates unique cleaning challenges, as properties often battle both pollen accumulation and mud splatter. We offer seasonal cleaning packages to address these changing needs throughout the year. From cleaning vinyl siding on suburban homes to restoring historic farmhouse exteriors, we have the expertise and equipment to handle any Middleburg property with care. Our services help maintain the rustic charm of this community while protecting surfaces from Florida's harsh sun and frequent rains.",
+        "localContext": "Middleburg's mix of rural properties and growing subdivisions requires versatile cleaning solutions for diverse property types.",
+        "nearbyAreas": [
+          "Orange Park",
+          "Fleming Island",
+          "Green Cove Springs"
+        ]
+      },
+      {
+        "city": "Green Cove Springs",
+        "slug": "green-cove-springs-fl",
+        "state": "FL",
+        "content": "Apex Power Washing serves Green Cove Springs' historic riverfront properties and growing residential communities with professional exterior cleaning services. Our team is experienced in handling the unique challenges posed by the St. Johns River environment, including cleaning boat docks, seawalls, and waterfront home exteriors affected by river spray. We specialize in preserving the character of Green Cove Springs' Victorian homes and historic buildings while effectively removing years of accumulated grime. The area's mineral-rich spring water can leave stubborn deposits on surfaces, which we safely remove without causing damage. Our services include comprehensive exterior cleaning for both the charming downtown district and newer developments along County Road 209. We adjust our cleaning methods based on each property's age and materials, from gentle washes for century-old wood to more robust treatments for modern construction. Whether you need to refresh your riverfront cottage or maintain your suburban home's curb appeal, we deliver results that enhance Green Cove Springs' natural beauty while protecting your investment.",
+        "localContext": "Green Cove Springs' mix of historic riverfront properties and new developments requires adaptable cleaning approaches.",
+        "nearbyAreas": [
+          "Fleming Island",
+          "Middleburg",
+          "Penney Farms"
+        ]
+      },
+      {
+        "city": "Nocatee",
+        "slug": "nocatee-fl",
+        "state": "FL",
+        "content": "Apex Power Washing provides premium exterior cleaning services for Nocatee's master-planned community, where pristine home exteriors contribute to the area's upscale aesthetic. Our team is well-versed in cleaning the modern architectural styles prevalent throughout Nocatee, from contemporary coastal designs to Mediterranean-inspired villas. We understand the specific needs of this growing community, including proper cleaning of synthetic stucco (EIFS) and maintenance of shared amenity areas. Our services help homeowners maintain compliance with community standards while protecting their property values. The Florida sun can quickly fade exterior surfaces, but our cleaning and protective treatments help preserve colors and materials. We offer convenient scheduling to work around Nocatee's active community calendar and can service multiple properties efficiently within the development. From cleaning playground equipment in the parks to refreshing home exteriors in the various villages, we're committed to helping maintain Nocatee's reputation as one of Florida's most desirable planned communities. Our eco-friendly cleaning solutions ensure beautiful results without harming the local environment or waterways.",
+        "localContext": "Nocatee's planned community features modern architecture requiring specialized cleaning techniques for new construction materials.",
+        "nearbyAreas": [
+          "Ponte Vedra Beach",
+          "Palm Valley",
+          "Julington Creek"
+        ]
+      },
+      {
+        "city": "Julington Creek",
+        "slug": "julington-creek-fl",
+        "state": "FL",
+        "content": "Apex Power Washing serves Julington Creek's family-oriented neighborhoods with comprehensive exterior cleaning solutions tailored to this thriving community. Our services help maintain the clean, uniform appearance of homes throughout the various subdivisions, from cleaning siding to refreshing front entryways. We're experienced in handling the pollen-heavy environment near the creek, providing effective cleaning that removes yellow dust from roofs, patios, and outdoor furniture. Our team understands the importance of maintaining curb appeal in this desirable area and offers seasonal cleaning packages to keep properties looking their best year-round. We use appropriate pressure levels for Julington Creek's diverse home styles, ensuring effective cleaning without damage to windows, light fixtures, or delicate landscaping. From cleaning playground equipment at community parks to washing fences along property lines, we help preserve the welcoming atmosphere of this neighborhood. Our efficient cleaning processes minimize disruption to your daily routine while delivering exceptional results that enhance your home's appearance and protect your investment in this sought-after community.",
+        "localContext": "Julington Creek's suburban neighborhoods benefit from regular cleaning to combat heavy pollen and maintain community standards.",
+        "nearbyAreas": [
+          "Fruit Cove",
+          "Bartram Park",
+          "Nocatee"
+        ]
+      },
+      {
+        "city": "Fruit Cove",
+        "slug": "fruit-cove-fl",
+        "state": "FL",
+        "content": "Apex Power Washing provides specialized exterior cleaning services for Fruit Cove's elegant homes nestled among mature oaks and along the St. Johns River. Our team is experienced in cleaning properties in this prestigious area while protecting sensitive landscaping and delicate architectural details. We address the unique challenges of Fruit Cove's environment, including cleaning riverfront homes affected by morning mist and properties shaded by trees that promote moss growth. Our gentle cleaning methods preserve the natural beauty of wood accents and stonework common in Fruit Cove homes while effectively removing years of accumulated grime. We offer customized cleaning solutions for the area's diverse property types, from historic ranch homes to modern estates. Our services help maintain the pristine appearance expected in this exclusive community while using environmentally friendly products safe for the river ecosystem. Whether you need to prepare your home for an important event or maintain your property's timeless appeal, we deliver meticulous cleaning results that meet Fruit Cove's high standards.",
+        "localContext": "Fruit Cove's riverfront estates and wooded properties require careful cleaning approaches that protect both surfaces and environment.",
+        "nearbyAreas": [
+          "Julington Creek",
+          "Ortega",
+          "Green Cove Springs"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-power-washing": "/images/service-residential-power-washing.webp",
+      "concrete-cleaning": "/images/service-concrete-cleaning.webp",
+      "roof-cleaning": "/images/service-roof-cleaning.webp",
+      "deck-restoration": "/images/service-deck-restoration.webp",
+      "commercial-power-washing": "/images/service-commercial-power-washing.webp"
+    },
+    "servicesResponsive": {
+      "residential-power-washing": {
+        "src": "/images/service-residential-power-washing.webp",
+        "srcset": "/images/service-residential-power-washing-400w.webp 400w, /images/service-residential-power-washing-800w.webp 800w, /images/service-residential-power-washing-1200w.webp 1200w, /images/service-residential-power-washing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-cleaning": {
+        "src": "/images/service-concrete-cleaning.webp",
+        "srcset": "/images/service-concrete-cleaning-400w.webp 400w, /images/service-concrete-cleaning-800w.webp 800w, /images/service-concrete-cleaning-1200w.webp 1200w, /images/service-concrete-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roof-cleaning": {
+        "src": "/images/service-roof-cleaning.webp",
+        "srcset": "/images/service-roof-cleaning-400w.webp 400w, /images/service-roof-cleaning-800w.webp 800w, /images/service-roof-cleaning-1200w.webp 1200w, /images/service-roof-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-restoration": {
+        "src": "/images/service-deck-restoration.webp",
+        "srcset": "/images/service-deck-restoration-400w.webp 400w, /images/service-deck-restoration-800w.webp 800w, /images/service-deck-restoration-1200w.webp 1200w, /images/service-deck-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-power-washing": {
+        "src": "/images/service-commercial-power-washing.webp",
+        "srcset": "/images/service-commercial-power-washing-400w.webp 400w, /images/service-commercial-power-washing-800w.webp 800w, /images/service-commercial-power-washing-1200w.webp 1200w, /images/service-commercial-power-washing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
